@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Selenium">
+
+  <test name="SeleBasic_Assign1">        
+    <classes>
+      <class name="Assignments.Sele_Basic_Assign_1">
+        <methods>
+          <include name="T1_WebPageTitle"/>
+          <include name="T2_radioButtonSelection"/>
+          <include name="T3_suggestionClassTest"/>
+          <include name="T4_dropdownSelection"/>
+          <include name="T5_checkboxSelection"/>
+          <include name="T6_switchWindow"/>
+          <include name="T7_switchTab"/>
+          <include name="T8_switchAlertAccept"/>
+          <include name="T9_switchAlertDismiss"/>
+          <include name="T10_checkboxDeselection"/>
+          <include name="T11_dropdownVerification"/>
+          <include name="T12_mouseOverAction"/>
+          <include name="T13_iframeHandling"/>
+          <include name="T14_webTableFixedHeader"/>
+        </methods>
+      </class> 
+    </classes>
+  </test> 
+
+  <test name="SeleBasic_Assign2">         
+    <classes>
+      <class name="Assignments.Sele_Basic_Assign2">
+        <methods>
+          <include name="T1_SelectMenu"/>
+          <include name="T2_DatePicker"/>
+          <include name="T3_TooltipMenu"/>
+          <include name="T4_TabsMenu"/>
+          <include name="T5_DroppableMenu"/>
+          <include name="T6_AccordionMenu"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Sele_AdvanceAssign1">     
+    <classes>
+      <class name="Assignments.SeleAdvance_Assign1">
+        <methods>
+          <include name="fillRegistrationForm"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Sele_AdvanceAssign2"> 
+    <classes>
+      <class name="Assignments.SeleAdvance_Assign2">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Sele_AdvanceAssign3"> 
+    <classes>
+      <class name="Assignments.SeleAdvance_Assign3">
+        <methods>
+          <include name="verifyUserDetails"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Sele_AdvanceAssign4"> 
+    <classes>
+      <class name="Assignments.SeleAdvance_Assign4">
+        <methods>
+          <include name="checkout"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>
